@@ -33,15 +33,15 @@ class ScoresTest {
     @Test
     void findAll() {
         List<Score> scoreList = scores.findAll();
-        assertEquals(3, scoreList.size());
+        assertEquals(4, scoreList.size());
 
         Score first = scoreList.get(0);
         Score last = scoreList.get(scoreList.size() - 1);
 
         assertEquals(1, first.getStudentSeq());
         assertEquals(30, first.getScore());
-        assertEquals(3, last.getStudentSeq());
-        assertEquals(70, last.getScore());
+        assertEquals(4, last.getStudentSeq());
+        assertEquals(55, last.getScore());
     }
 
 }
