@@ -1,13 +1,12 @@
 
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼Ä“
-œ
-java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒùëüüÿÿÿÿ
-M
-java:S1135"2Complete the task associated to this TODO comment.( ıŠ¦ûÿÿÿÿ
-H
-java:S1135"2Complete the task associated to this TODO comment.(ĞóçÉ
-H
-java:S1168#"+Return an empty collection instead of null.(¥¹ï8ÔŒš¹Ö1
-H
-java:S1135'"2Complete the task associated to this TODO comment.(ÎÈœí
+g	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8üëÀ»Ö1
+C
+java:S1170"!Make this final field static too.(¬ãÕ´şÿÿÿÿ8ƒìÀ»Ö1
+¶
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(€ñÁ’8º÷ÀÖ1
+T
+java:S1135"2Complete the task associated to this TODO comment.( ıŠ¦ûÿÿÿÿ8…ìÀ»Ö1
+O
+java:S1135""2Complete the task associated to this TODO comment.(ĞóçÉ8…ìÀ»Ö1
+O
+java:S1135="2Complete the task associated to this TODO comment.(ÎÈœí8ˆìÀ»Ö1

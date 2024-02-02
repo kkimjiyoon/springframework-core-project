@@ -1,4 +1,33 @@
 
-g	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8È® ¥Ö1
-L	java:S106"+Replace this use of System.out by a logger.(Ô•Ç²ÿÿÿÿÿ8é±±¥Ö1
-G	java:S106"+Replace this use of System.out by a logger.(ÂÌ¶²8¢Ë²¥Ö1
+_
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Ù¨°“8ùÆƒ½Ö1
+]	java:S125"<This block of commented-out lines of code should be removed.(»ž•ûÿÿÿÿ8ûÆƒ½Ö1
+~
+java:S1128"\Remove this unused import 'com.nhnacademy.edu.springframework.project.repository.CsvScores'.(ùÓÍþþÿÿÿÿ8ûÆƒ½Ö1
+{
+java:S1128"^Remove this unused import 'com.nhnacademy.edu.springframework.project.repository.CsvStudents'.(Ùƒ¡8ûÆƒ½Ö1
+u
+java:S1128"XRemove this unused import 'com.nhnacademy.edu.springframework.project.repository.Score'.(âù•¼8ûÆƒ½Ö1
+v
+java:S1128"YRemove this unused import 'com.nhnacademy.edu.springframework.project.repository.Scores'.(„Î®ð8ûÆƒ½Ö1
+
+java:S1128"bRemove this unused import 'com.nhnacademy.edu.springframework.project.service.CsvDataLoadService'.(ƒ˜·å8üÆƒ½Ö1
+‡
+java:S1128"eRemove this unused import 'com.nhnacademy.edu.springframework.project.service.DefaultStudentService'.(±´ö×úÿÿÿÿ8üÆƒ½Ö1
+t
+java:S1128	"WRemove this unused import 'com.nhnacademy.edu.springframework.project.service.Student'.(ºî¤£8üÆƒ½Ö1
+l
+java:S1128
+"JRemove this unused import 'org.springframework.core.io.ClassPathResource'.(Ý¹º§ýÿÿÿÿ8üÆƒ½Ö1
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8üÆƒ½Ö1
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8üÆƒ½Ö1
+M
+java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º8üÆƒ½Ö1
+S
+java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8üÆƒ½Ö1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8üÆƒ½Ö1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ýÆƒ½Ö1

@@ -45,3 +45,25 @@ e
 Q.idea/sonarlint/securityhotspotstore/e/8/e8c55bae97659cc7a5ce1b587649dad222b946ea,1/d/1db780f80c60a0e780fef986cb13688a03f05f00
 S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+P
+ springframework-project1/pom.xml,f/a/faf8b1a1260f55c5108c4f6fadaab6ba52a03340
+w
+G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
+Å
+Q.idea/sonarlint/securityhotspotstore/1/d/1db780f80c60a0e780fef986cb13688a03f05f00,5/6/56c26a6da013eaf4e0f834265524a2de103132d4
+Å
+Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c
+Å
+Q.idea/sonarlint/securityhotspotstore/f/a/faf8b1a1260f55c5108c4f6fadaab6ba52a03340,0/e/0e48aaedbbb199801e97b60d5fed3e6bc92ceaf8
+w
+G.idea/sonarlint/issuestore/f/a/faf8b1a1260f55c5108c4f6fadaab6ba52a03340,9/3/93068f5a6a9feb0a08337ac28231095aa6433eb4
+w
+G.idea/sonarlint/issuestore/f/6/f68cf8732d5993c353da1117c1ec9236c1f38c1e,7/c/7cb6745793ad4f4854dd93784d356c2bbadfc22e
+Å
+Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9/0/909762385fc6eb20f922a91c6865741308b57f2c
+w
+G.idea/sonarlint/issuestore/1/d/1db780f80c60a0e780fef986cb13688a03f05f00,f/9/f90c65c3325b73750a5768024477c03c34dc9f01
+Å
+Q.idea/sonarlint/securityhotspotstore/f/6/f68cf8732d5993c353da1117c1ec9236c1f38c1e,3/2/32026ea94ae2111baba65a3724708b090af4a691
+w
+G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f
