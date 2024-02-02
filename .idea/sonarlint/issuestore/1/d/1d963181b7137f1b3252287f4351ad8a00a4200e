@@ -1,3 +1,5 @@
 
-*
-java:S1700"Rename field "score"(èÅûÍ
+1
+java:S1700"Rename field "score"(èÅûÍ8˜¤˜Ö1
+{
+java:S1210!"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¨âøµúÿÿÿÿ8¦¤˜Ö1

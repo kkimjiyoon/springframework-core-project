@@ -1,11 +1,13 @@
 
 —
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼Ä“
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼Ä“
 œ
-java:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒùëüüÿÿÿÿ
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒùëüüÿÿÿÿ
 M
-java:S1135"2Complete the task associated to this TODO comment.( ıŠ¦ûÿÿÿÿ
+java:S1135"2Complete the task associated to this TODO comment.( ıŠ¦ûÿÿÿÿ
 H
-java:S1135"2Complete the task associated to this TODO comment.(ĞóçÉ
+java:S1135"2Complete the task associated to this TODO comment.(ĞóçÉ
 H
-java:S1135!"2Complete the task associated to this TODO comment.(ÎÈœí
+java:S1168#"+Return an empty collection instead of null.(¥¹ï8ÔŒš¹Ö1
+H
+java:S1135'"2Complete the task associated to this TODO comment.(ÎÈœí

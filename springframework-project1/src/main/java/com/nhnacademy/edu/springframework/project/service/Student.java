@@ -2,7 +2,7 @@ package com.nhnacademy.edu.springframework.project.service;
 
 import com.nhnacademy.edu.springframework.project.repository.Score;
 
-public class Student {
+public class Student implements Comparable<Student> {
     private final int seq;
     private final String name;
     private Score score;
@@ -20,6 +20,14 @@ public class Student {
         return this.score;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getSeq() {
+        return seq;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -27,5 +35,10 @@ public class Student {
                 ", name='" + name + '\'' +
                 ", score=" + score +
                 '}'+ '\n';
+    }
+
+    @Override
+    public int compareTo(Student student) {
+        return this.score.compareTo(student.getScore());
     }
 }
