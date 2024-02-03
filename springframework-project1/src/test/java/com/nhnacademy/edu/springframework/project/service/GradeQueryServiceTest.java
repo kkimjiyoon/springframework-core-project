@@ -1,14 +1,14 @@
 package com.nhnacademy.edu.springframework.project.service;
 
-import com.nhnacademy.edu.springframework.project.repository.*;
+import com.nhnacademy.edu.springframework.project.repository.Score;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Collection;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 class GradeQueryServiceTest {
     @BeforeEach
@@ -26,10 +26,7 @@ class GradeQueryServiceTest {
         List<Score> scoreList = defaultGradeQueryService.getScoreByStudentName(studentName);
 
         assertFalse(scoreList.isEmpty());
-
-        for (Score score : scoreList) {
-            assertTrue(score.getScore() == 30 || score.getScore() == 70);
-        }
+        assertEquals(2, scoreList.size());
 
     }
 

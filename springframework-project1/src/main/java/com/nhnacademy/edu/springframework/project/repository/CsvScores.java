@@ -8,21 +8,14 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class CsvScores implements Scores {
     private final String filePath = "data/score.csv";
     private final List<Score> scoreList = new ArrayList<>();
 
     private CsvScores() {
-    } // private 생성자로 외부에서 객체 생성을 막아야한다.
-
-    /**
-     * TODO 2 :
-     * Java Singleton 패턴으로 getInstance() 를 구현하세요.
-     **/
-
-    private static CsvScores csvScores;  // 단 1개만 존재해야 하는 객체의 인스턴스로 static 으로 선언
+    }
+    private static CsvScores csvScores;
 
     public static Scores getInstance() {
         if (csvScores == null) {
@@ -31,7 +24,6 @@ public class CsvScores implements Scores {
         return csvScores;
     }
 
-    // TODO 5 : score.csv 파일에서 데이터를 읽어 멤버 변수에 추가하는 로직을 구현하세요.
     @Override
     public void load() {
         try (InputStream inputStream = new ClassPathResource(filePath).getInputStream();

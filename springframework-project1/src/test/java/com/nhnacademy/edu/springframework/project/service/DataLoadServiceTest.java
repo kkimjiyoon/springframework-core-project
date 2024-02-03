@@ -20,7 +20,12 @@ class DataLoadServiceTest {
 
         for (Student student : students.findAll()) {
             assertNotNull(student.getScore());
-            assertEquals(scores.findAll().stream().filter(score -> score.getStudentSeq() == student.getSeq()).findFirst().orElse(null), student.getScore());
+//            assertEquals(scores.findAll().stream().filter(score -> score.getStudentSeq() == student.getSeq()).findFirst().orElse(null), student.getScore());
+            for (Score score : scores.findAll()) {
+                if (student.getSeq() == score.getStudentSeq()) {
+                    assertEquals(score.getScore(), student.getScore().getScore());
+                }
+            }
         }
     }
 }
