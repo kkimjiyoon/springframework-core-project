@@ -1,6 +1,4 @@
 
-g	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µñšòÖ1
+g	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8êŠÜöÖ1
 C
-java:S1170"!Make this final field static too.(¬ãÕ´şÿÿÿÿ8ÅñšòÖ1
-¶
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(€ñÁ’8ÆñšòÖ1
+java:S1170"!Make this final field static too.(¬ãÕ´şÿÿÿÿ8úŠÜöÖ1

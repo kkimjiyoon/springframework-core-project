@@ -15,17 +15,6 @@ public class CsvScores implements Scores {
     private final String filePath = "data/score.csv";
     private final List<Score> scoreList = new ArrayList<>();
 
-    private CsvScores() {
-    }
-    private static CsvScores csvScores;
-
-    public static Scores getInstance() {
-        if (csvScores == null) {
-            csvScores = new CsvScores();
-        }
-        return csvScores;
-    }
-
     @Override
     public void load() {
         try (InputStream inputStream = new ClassPathResource(filePath).getInputStream();

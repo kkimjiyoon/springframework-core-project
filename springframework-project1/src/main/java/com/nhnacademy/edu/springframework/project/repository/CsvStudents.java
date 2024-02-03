@@ -17,15 +17,6 @@ public class CsvStudents implements Students {
     private final String filePath = "data/student.csv";
     private final List<Student> studentList = new ArrayList<>();
 
-    private CsvStudents() {}
-    private static CsvStudents csvStudents;
-    public static Students getInstance() {
-        if (csvStudents == null) {
-            csvStudents = new CsvStudents();
-        }
-        return csvStudents;
-    }
-
     @Override
     public void load() {
         try(InputStream inputStream = new ClassPathResource(filePath).getInputStream();
