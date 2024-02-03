@@ -1,6 +1,7 @@
 package com.nhnacademy.edu.springframework.project.repository;
 
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.stereotype.Component;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,6 +10,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class CsvScores implements Scores {
     private final String filePath = "data/score.csv";
     private final List<Score> scoreList = new ArrayList<>();
