@@ -1,4 +1,7 @@
 
+T
+java:S2629"7Use the built-in formatting to construct this argument.(‰°ş8íŸ‚›×1
 t
-java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8É–÷Ö1
-L	java:S106"+Replace this use of System.out by a logger.(ùçõ¦øÿÿÿÿ8Ë–÷Ö1
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8ùŸ‚›×1
+^
+java:S3457"AFormat specifiers should be used instead of string concatenation.(‰°ş8úŸ‚›×1
