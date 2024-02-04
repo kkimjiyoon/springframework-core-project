@@ -1,9 +1,5 @@
 package com.nhnacademy.edu.springframework.project.config;
 
-import com.nhnacademy.edu.springframework.project.service.CsvDataLoadService;
-import com.nhnacademy.edu.springframework.project.service.DefaultGradeQueryService;
-import com.nhnacademy.edu.springframework.project.service.DefaultStudentService;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
@@ -11,7 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @Configuration
 @EnableAspectJAutoProxy
 @ComponentScan(basePackages = "com.nhnacademy.edu.springframework.project")
-public class CsvConfig {
+public class JavaConfig {
 //    @Bean
 //    public CsvDataLoadService csvDataLoadService() {
 //        return new CsvDataLoadService();

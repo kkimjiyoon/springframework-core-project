@@ -1,17 +1,26 @@
 package com.nhnacademy.edu.springframework.project.service;
 
+import com.nhnacademy.edu.springframework.project.config.JavaConfig;
+import com.nhnacademy.edu.springframework.project.repository.StudentService;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 import java.util.Collection;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@SpringJUnitConfig(classes = JavaConfig.class)
 class StudentServiceTest {
 
+    @Autowired
+    private DataLoadService csvDataLoadService;
+
+    @Autowired
+    private StudentService studentService;
     @Test
     void getPassedStudents() {
-        DefaultStudentService studentService = new DefaultStudentService();
 
         Collection<Student> passedStudents = studentService.getPassedStudents();
 
@@ -24,8 +33,6 @@ class StudentServiceTest {
 
     @Test
     void getStudentsOrderByScore() {
-        DefaultStudentService studentService = new DefaultStudentService();
-
         Collection<Student> studentsOrderByScore = studentService.getStudentsOrderByScore();
 
         assertNotNull(studentsOrderByScore);

@@ -1,6 +1,6 @@
 package com.nhnacademy.edu.springframework.project;
 
-import com.nhnacademy.edu.springframework.project.config.CsvConfig;
+import com.nhnacademy.edu.springframework.project.config.JavaConfig;
 import com.nhnacademy.edu.springframework.project.repository.StudentService;
 import com.nhnacademy.edu.springframework.project.service.*;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -9,7 +9,7 @@ import java.util.Collection;
 
 public class ConfigMain {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(CsvConfig.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
 
         DataLoadService csvDataLoadService = context.getBean("csvDataLoadService", DataLoadService.class);
         csvDataLoadService.loadAndMerge();
